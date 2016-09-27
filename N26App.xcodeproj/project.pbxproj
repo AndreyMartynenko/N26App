@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9F59501E64735EF276B653 /* libPods-N26AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F13D6479828E50F754611 /* libPods-N26AppTests.a */; };
+		55119EE91D9A845700FFAEBD /* UtilsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 55119EE81D9A845700FFAEBD /* UtilsSpec.m */; };
 		553B88B61D993A8C00D88F9F /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B88B51D993A8C00D88F9F /* CacheManager.m */; };
 		553B88B91D99463300D88F9F /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B88B81D99463300D88F9F /* Time.m */; };
 		553B88BD1D99482D00D88F9F /* JSONCurrentPriceService.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B88BC1D99482D00D88F9F /* JSONCurrentPriceService.m */; };
@@ -16,11 +18,9 @@
 		553B88CC1D9A15DD00D88F9F /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 553B88CB1D9A15DD00D88F9F /* Utils.m */; };
 		55B2006E1D97F46300D15C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B2006D1D97F46300D15C2E /* main.m */; };
 		55B200711D97F46300D15C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200701D97F46300D15C2E /* AppDelegate.m */; };
-		55B200741D97F46300D15C2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200731D97F46300D15C2E /* ViewController.m */; };
 		55B200771D97F46300D15C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B200751D97F46300D15C2E /* Main.storyboard */; };
 		55B200791D97F46300D15C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B200781D97F46300D15C2E /* Assets.xcassets */; };
 		55B2007C1D97F46300D15C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B2007A1D97F46300D15C2E /* LaunchScreen.storyboard */; };
-		55B200871D97F46300D15C2E /* N26AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200861D97F46300D15C2E /* N26AppTests.m */; };
 		55B200A41D97F4E300D15C2E /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200941D97F4E300D15C2E /* BaseObject.m */; };
 		55B200A51D97F4E300D15C2E /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200961D97F4E300D15C2E /* Information.m */; };
 		55B200A71D97F4E300D15C2E /* JSONService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B2009C1D97F4E300D15C2E /* JSONService.m */; };
@@ -29,6 +29,7 @@
 		55B200BF1D9836B500D15C2E /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200BE1D9836B500D15C2E /* GraphViewController.m */; };
 		55B200C31D984F0300D15C2E /* JSONHistoricalService.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200C21D984F0300D15C2E /* JSONHistoricalService.m */; };
 		55B200C61D9851E900D15C2E /* Historical.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B200C51D9851E900D15C2E /* Historical.m */; };
+		55FA31421D9A7636005A8C42 /* CacheManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FA31411D9A7636005A8C42 /* CacheManagerSpec.m */; };
 		B1FC67656BFDD25EA5CD79BC /* libPods-N26App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EBC41B612EF2F281C92792 /* libPods-N26App.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		28EBC41B612EF2F281C92792 /* libPods-N26App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-N26App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55119EE81D9A845700FFAEBD /* UtilsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsSpec.m; sourceTree = "<group>"; };
 		553B88B41D993A8C00D88F9F /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
 		553B88B51D993A8C00D88F9F /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
 		553B88B71D99463300D88F9F /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
@@ -64,14 +66,11 @@
 		55B2006D1D97F46300D15C2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55B2006F1D97F46300D15C2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B200701D97F46300D15C2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55B200721D97F46300D15C2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55B200731D97F46300D15C2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55B200761D97F46300D15C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55B200781D97F46300D15C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B2007B1D97F46300D15C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B2007D1D97F46300D15C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B200821D97F46300D15C2E /* N26AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = N26AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55B200861D97F46300D15C2E /* N26AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = N26AppTests.m; sourceTree = "<group>"; };
 		55B200881D97F46300D15C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B200931D97F4E300D15C2E /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
 		55B200941D97F4E300D15C2E /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
@@ -92,8 +91,12 @@
 		55B200C21D984F0300D15C2E /* JSONHistoricalService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHistoricalService.m; sourceTree = "<group>"; };
 		55B200C41D9851E900D15C2E /* Historical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Historical.h; sourceTree = "<group>"; };
 		55B200C51D9851E900D15C2E /* Historical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Historical.m; sourceTree = "<group>"; };
+		55FA31411D9A7636005A8C42 /* CacheManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManagerSpec.m; sourceTree = "<group>"; };
+		6C6F13D6479828E50F754611 /* libPods-N26AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-N26AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAC2D241DCF0F10BEB8A22A /* Pods-N26AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N26AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-N26AppTests/Pods-N26AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7C2ED7C80DD41CC3A280DAB /* Pods-N26App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N26App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-N26App/Pods-N26App.debug.xcconfig"; sourceTree = "<group>"; };
 		BB88EBB1E15B1904E288CEDF /* Pods-N26App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N26App.release.xcconfig"; path = "Pods/Target Support Files/Pods-N26App/Pods-N26App.release.xcconfig"; sourceTree = "<group>"; };
+		C8524BD11075B9594F3F6FFE /* Pods-N26AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N26AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-N26AppTests/Pods-N26AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9F59501E64735EF276B653 /* libPods-N26AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +163,6 @@
 				55B200B91D982C6400D15C2E /* UI */,
 				55B2006F1D97F46300D15C2E /* AppDelegate.h */,
 				55B200701D97F46300D15C2E /* AppDelegate.m */,
-				55B200721D97F46300D15C2E /* ViewController.h */,
-				55B200731D97F46300D15C2E /* ViewController.m */,
 				55B200781D97F46300D15C2E /* Assets.xcassets */,
 				55B2007D1D97F46300D15C2E /* Info.plist */,
 				55B2006C1D97F46300D15C2E /* Supporting Files */,
@@ -179,8 +181,9 @@
 		55B200851D97F46300D15C2E /* N26AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				55B200861D97F46300D15C2E /* N26AppTests.m */,
 				55B200881D97F46300D15C2E /* Info.plist */,
+				55FA31411D9A7636005A8C42 /* CacheManagerSpec.m */,
+				55119EE81D9A845700FFAEBD /* UtilsSpec.m */,
 			);
 			path = N26AppTests;
 			sourceTree = "<group>";
@@ -288,6 +291,8 @@
 			children = (
 				B7C2ED7C80DD41CC3A280DAB /* Pods-N26App.debug.xcconfig */,
 				BB88EBB1E15B1904E288CEDF /* Pods-N26App.release.xcconfig */,
+				C8524BD11075B9594F3F6FFE /* Pods-N26AppTests.debug.xcconfig */,
+				AEAC2D241DCF0F10BEB8A22A /* Pods-N26AppTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				28EBC41B612EF2F281C92792 /* libPods-N26App.a */,
+				6C6F13D6479828E50F754611 /* libPods-N26AppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -327,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55B2008E1D97F46300D15C2E /* Build configuration list for PBXNativeTarget "N26AppTests" */;
 			buildPhases = (
+				3D9E24522992E43FDF78AF2F /* [CP] Check Pods Manifest.lock */,
 				55B2007E1D97F46300D15C2E /* Sources */,
 				55B2007F1D97F46300D15C2E /* Frameworks */,
 				55B200801D97F46300D15C2E /* Resources */,
+				5998134EC938FBF7D8DC9AC6 /* [CP] Embed Pods Frameworks */,
+				580D101463CE3FCCA188A4C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -413,6 +422,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-N26App/Pods-N26App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3D9E24522992E43FDF78AF2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580D101463CE3FCCA188A4C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-N26AppTests/Pods-N26AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5998134EC938FBF7D8DC9AC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-N26AppTests/Pods-N26AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		81712DE738DE1EF6A5482667 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,7 +506,6 @@
 			files = (
 				55B200C61D9851E900D15C2E /* Historical.m in Sources */,
 				553B88C61D994B4D00D88F9F /* BPI.m in Sources */,
-				55B200741D97F46300D15C2E /* ViewController.m in Sources */,
 				55B200A51D97F4E300D15C2E /* Information.m in Sources */,
 				553B88C01D99496700D88F9F /* CurrentPrice.m in Sources */,
 				553B88B91D99463300D88F9F /* Time.m in Sources */,
@@ -475,7 +528,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B200871D97F46300D15C2E /* N26AppTests.m in Sources */,
+				55119EE91D9A845700FFAEBD /* UtilsSpec.m in Sources */,
+				55FA31421D9A7636005A8C42 /* CacheManagerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +673,7 @@
 		};
 		55B2008F1D97F46300D15C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8524BD11075B9594F3F6FFE /* Pods-N26AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = N26AppTests/Info.plist;
@@ -631,6 +686,7 @@
 		};
 		55B200901D97F46300D15C2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAC2D241DCF0F10BEB8A22A /* Pods-N26AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = N26AppTests/Info.plist;
